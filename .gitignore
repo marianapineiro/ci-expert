@@ -1,0 +1,17 @@
+*.log
+*.vcd
+*.conf
+*.fsdb
+*.key
+simv
+*.0
+*.sh
+csrc/
+diag/
+hsim/
+objs/
+*.so
+*.o
+*.pli
+*.daidir
+verdiLog/
