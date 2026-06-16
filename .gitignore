@@ -1,18 +1,29 @@
-*.log
-*.vcd
-*.conf
-*.fsdb
-*.key
-simv
-*.0
-*.sh
+# --- Compilador VCS (Synopsys) ---
 csrc/
+simv
+*.daidir/
+*.vdb/
+urgReport/
+*.0
+*.log
+*.key
+*.pli
+
+# --- Visualizador de Ondas Verdi (Synopsys) ---
+verdiLog/
+*.fsdb
+*.vcd
+*.rc
+*.conf
+
+# --- Arquivos de Sistema e Compilação C/C++ ---
+objs/
 diag/
 hsim/
-objs/
+*.sh
 *.so
 *.o
-*.pli
-*.daidir
-verdiLog/
-*.rc
+
+# --- Extensões Gerais Temporárias ---
+*~
+.#*
