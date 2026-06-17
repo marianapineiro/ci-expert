@@ -167,6 +167,12 @@ Navegue até a pasta de testes do módulo desejado (exemplo com o multiplexador)
 
 `cd mux/tb/`
 
+#### 0. Carregue o module VCS e Verdi
+
+`module load vcs verdi`
+
+
+
 #### 1. Compilação com o VCS
 O comando abaixo compila o hardware e o testbench listados no arquivo `filelist.f`:
 
